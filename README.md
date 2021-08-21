@@ -6,6 +6,8 @@ This .NET Core package provides convenient access to the REST interface of the M
 
 Consider giving it a ⭐ on Github, it was a lot of work.
 
+[Nuget Package](https://www.nuget.org/packages/Multilogin.Api)
+
 # Features
 - Fully customizable browser fingerprint (Indigo/Multilogin) ([What is a browser fingerprint?](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint))
 - Local & Remote API Support, Automated API Key Retrival
