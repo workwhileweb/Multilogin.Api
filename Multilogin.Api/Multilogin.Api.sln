@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multilogin.Api", "Multilogin.Api.csproj", "{C5B1F4B8-73A6-4284-B5B1-84119FB1A099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilogin.Api.Tests", "..\Multilogin.Api.Tests\Multilogin.Api.Tests.csproj", "{8996DA89-160B-425F-AB77-7282C3AF24EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B1F4B8-73A6-4284-B5B1-84119FB1A099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B1F4B8-73A6-4284-B5B1-84119FB1A099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B1F4B8-73A6-4284-B5B1-84119FB1A099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B1F4B8-73A6-4284-B5B1-84119FB1A099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8996DA89-160B-425F-AB77-7282C3AF24EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8996DA89-160B-425F-AB77-7282C3AF24EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8996DA89-160B-425F-AB77-7282C3AF24EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8996DA89-160B-425F-AB77-7282C3AF24EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89FB4F1A-167C-4DF8-AE6F-91BB03612193}
+	EndGlobalSection
+EndGlobal
