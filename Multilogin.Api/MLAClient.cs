@@ -33,9 +33,9 @@ namespace Multilogin.Api
         /// MLA Client
         /// </summary>
         /// <param name="mlaPort">MLA port (Default: 35000)</param>
-        /// <param name="remoteUrl">Remote URL (app/indigo)</param>
+        /// <param name="remoteUrl">Remote URL (app.multiloginapp.com/indigo.multiloginapp.com)</param>
         /// <param name="token">MLA token (optional; gets grabbed automatically otherwise)</param>
-        public MLAClient(int mlaPort = 35000, string remoteUrl = "https://indigo.multiloginapp.com", string mlaToken = null)
+        public MLAClient(int mlaPort = 35000, string remoteUrl = "https://app.multiloginapp.com", string mlaToken = null)
         {
             Models = new Dispatch(new RestClient(), new Random(), mlaPort, remoteUrl, mlaToken);
             Models.Uuid = CurrentPlan.Uid.ToString();
