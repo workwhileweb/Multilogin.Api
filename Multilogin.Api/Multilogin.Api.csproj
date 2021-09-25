@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Product>Selenium Humanize</Product>
     <Description>This .NET Core package provides convenient access to the REST interface of the Multilogin aka. Indigo Client. Check the project url for more.</Description>
     <Copyright>Earthlion</Copyright>
